@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row my-5">
+            <div class="col-md-12">
+                <button type="button" class="btn" data-toggle="modal" data-target="#myModal">
+                    open
+                </button>
+                <div class="modal fade" id="myModal">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4>Add person</h4><span class="close">&times</span>
+                            </div>
+                            <div class="modal-body">
+                                <label for="frst">First name</label>
+                                <input type="text" id="frst" placeholder="First name">
+                                <br>
+                                <label for="frst">Last name</label>
+                                <input type="text" id="frst" placeholder="Last name">
+                                <br>
+                                <label for="gender">Gender  </label>
+                                <select name="" class="mx-4" id="gender">
+                                    <option value="gender">male</option>
+                                    <option value="gender">female</option>
+                                </select>
+                                <br>
+                                <label for="address">Address</label>
+                                <input type="address" class="mx-3" id="address" placeholder="Address">
+                                <br>
+                                <label for="date">Birthday</label>
+                                <input type="date" class="mx-3" id="date">
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">save</button>
+                                <button type="button" class="btn btn-danger">cansel</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
